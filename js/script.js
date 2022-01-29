@@ -51,7 +51,3 @@ var data = [{Nome: "Notturno",
     }];
 
 document.getElementById("work").appendChild(createButtonsDiv(data));
-
-function sendEmail() {
-
-}
