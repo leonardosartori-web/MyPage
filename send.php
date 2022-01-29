@@ -22,5 +22,5 @@ if($result)
     echo "Email inviata con successo";
 else
     echo "Problemi nell'invio dell'email";
-
+header("Location:thankyou.html");
 ?>
