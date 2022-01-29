@@ -16,7 +16,7 @@ if($error){
     exit();
 }
 
-$result = mail ("leonardo.sartori62@gmail.com", "Invio", $_POST['message'],  "FROM: $_POST[email]");
+$result = mail("leonardo.sartori62@gmail.com", "Invio", $_POST['message'],  "FROM: $_POST[email]");
 
 if($result)
     echo "Email inviata con successo";
